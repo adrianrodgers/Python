@@ -77,8 +77,8 @@ if __name__ == '__main__':
     with open(r"c:\Logins\UserDetails.txt", newline='') as f:
         reader = csv.reader(f)
         y = list(reader)
-    a = y[0]    #['adrian', '0326', '83468346', '314', '0921']
-    t = y[1]    #['tony', '0325', 'bunkerboys18', '313', '0948']
+    a = y[0]    #['adrian', '0326', '83****46', '314', '0921']
+    t = y[1]    #['tony', '0325', 'bun******s18', '313', '0948']
     #
     adrianPlayerCode = a[3]
     tonyPlayerCode = t[3]
